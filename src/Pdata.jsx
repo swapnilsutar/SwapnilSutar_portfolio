@@ -4,7 +4,7 @@ const Pdata =[
         imgg:"/images/projectimages/indianfood.png",
         title:"Indian Food Restaurant",
         domain:"Web Application",
-        description:"Indian food Restaurant hotel website where user can reserve table or party hall and can order food.",
+        description:"Indian food Restaurant hotel website where users can reserve a table or party hall and also can order food.",
         link:"http://indianfoodrestaurant.herokuapp.com/",
         tech:['php ','laravel ','html5 ','css ']
     },
@@ -13,7 +13,7 @@ const Pdata =[
         imgg:"/images/projectimages/panhalabot.png",
         title:"PanhalaBot",
         domain:"Chatbot",
-        description:"Tourist Assistant chatbot, It help to tell history of Panhala fort and near services via Text or Speech format.",
+        description:"Tourist Assistant chatbot, It helps to tell the history of Panhala fort and near services via Text or Speech format.",
         tech:['Python ','Flask ','Chatterbot ','Javascript ','Html ','css ','Bootstrap '],
         link:"https://panhalabot.herokuapp.com/",
     },

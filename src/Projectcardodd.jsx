@@ -30,7 +30,7 @@ function Projectcardodd(props) {
 
                         </div>
 
-                        <div className="col-sm-5 col-md-5 col-lg-6s">
+                        <div className="col-sm-5 col-md-5 col-lg-6">
 
                             <div className="project_card ">
                                 <img src={props.imgg} alt="Project Image"/>
