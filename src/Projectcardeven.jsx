@@ -8,8 +8,7 @@ function Projectcard(props) {
     <>
         <div className="container">
                 <div className="row row_card">
-
-                    <div className="col-sm-5 col-md-5 col-lg-6">
+                    <div className="d-none d-md-block col-md-5 col-lg-6 even">
                         <div className="project_card ">
                             <img src={props.imgg} alt=""/>
                         </div>
@@ -37,6 +36,8 @@ function Projectcard(props) {
                         </div>
 
                     </div>
+                    <div className="col-lg-1"></div>
+
                 </div>
         </div>
     </>

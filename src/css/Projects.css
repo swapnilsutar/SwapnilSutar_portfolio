@@ -50,14 +50,21 @@
 
 .card_even{
     /* position: absolute; */
-    left: -20%;
+    /* left: -20%; */
     z-index: 11;
     width: 100%;
 }
 .card_odd{
-    left: 13%;
+    /* left: 13%; */
     z-index: 11;
 }
+.odd{
+    left:-20%;
+}
+.even{
+    right: -20%;
+}
+
 .project{
     position: absolute;
     top:0;

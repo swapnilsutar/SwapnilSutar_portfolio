@@ -18,14 +18,6 @@ function Project(){
                             return(
 
                                 (index%2 == 0 ) ?
-                                        <Projectcardeven 
-                                            imgg={val.imgg}
-                                            title={val.title}
-                                            link={val.link}
-                                            tech={val.tech}
-                                            domain={val.domain}
-                                            des={val.description}
-                                        />:
                                         <Projectcardodd 
                                             imgg={val.imgg}
                                             title={val.title}
@@ -33,7 +25,15 @@ function Project(){
                                             tech={val.tech}
                                             domain={val.domain}
                                             des={val.description}
-                                        />
+                                        />:
+                                        <Projectcardeven 
+                                        imgg={val.imgg}
+                                        title={val.title}
+                                        link={val.link}
+                                        tech={val.tech}
+                                        domain={val.domain}
+                                        des={val.description}
+                                    />
                             );
                 })}
 
