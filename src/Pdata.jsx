@@ -4,7 +4,7 @@ const Pdata =[
         imgg:"/images/projectimages/indianfood.png",
         title:"Indian Food Restaurant",
         domain:"Web Application",
-        description:"",
+        description:"Indian food Restaurant hotel website where user can reserve table or party hall and can order food.",
         link:"http://indianfoodrestaurant.herokuapp.com/",
         tech:['php ','laravel ','html5 ','css ']
     },
@@ -13,15 +13,17 @@ const Pdata =[
         imgg:"/images/projectimages/panhalabot.png",
         title:"PanhalaBot",
         domain:"Chatbot",
-        description:"",
-        link:"https://panhalabot.herokuapp.com/"
+        description:"Tourist Assistant chatbot, It help to tell history of Panhala fort and near services via Text or Speech format.",
+        tech:['Python ','Flask ','Chatterbot ','Javascript ','Html ','css ','Bootstrap '],
+        link:"https://panhalabot.herokuapp.com/",
     },
     {
         id:"3",
         imgg:"/images/projectimages/got.png",
-        title:"Game of thrones songs collection",
+        title:"Game of thrones Music Player",
         domain:"Website",
-        description:"",
+        tech:['html5 ','css ','Js ', 'Bootstrap '],
+        description:"songs collection from the most popular tv show game of thrones",
         link:"http://www.gotsoundtrack.epizy.com/"
     },
     {
@@ -29,7 +31,8 @@ const Pdata =[
         imgg:"/images/projectimages/tushar.png",
         title:"Ecommerce Website Design",
         domain:"Website",
-        description:"",
+        description:"Ecommerce website design ",
+        tech:['html5 ','css ', 'Bootstrap '],
         link:"https://swapnilsutar.github.io/e_commerce/"
     },
     {
@@ -38,22 +41,25 @@ const Pdata =[
         title:"College Website Design",
         domain:"Website",
         description:"",
+        tech:['html5 ','css ', 'Bootstrap '],
         link:"https://swapnilsutar.github.io/tkiet.homepage/"
     },
     {
         id:"6",
         imgg:"/images/projectimages/yogesh.png",
-        title:"Portfolio Template 1",
+        title:"Portfolio 1",
         domain:"Website",
-        description:"",
+        description:"Portfolio template design",
+        tech:['html5 ','css ','Js ', 'Bootstrap '],
         link:"https://swapnilsutar.github.io/yogesh_portfolio"
     },
     {
         id:"7",
         imgg:"/images/projectimages/swapnil.png",
-        title:"Portfolio Template 2",
+        title:"Portfolio 2",
         domain:"Website",
-        description:"",
+        description:"Portfolio template design",
+        tech:['html5 ','css ','Js ', 'Bootstrap '],
         link:"https://swapnilsutar.github.io/"
     }
 ]

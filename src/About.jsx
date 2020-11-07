@@ -45,13 +45,13 @@ function About(){
 
                         <div className="skills_tags text-center">
 
+                            <div className="btn btn-primary">php</div>
                             <div className="btn btn-primary">HTML5</div>
                             <div className="btn btn-primary">Bootstrap</div>
-                            <div className="btn btn-primary">php</div>
                             <div className="btn btn-primary">css</div>
                             <div className="btn btn-primary">Javascript</div>
-                            <div className="btn btn-primary">ReactJs</div>
                             <div className="btn btn-primary">Laravel</div>
+                            <div className="btn btn-primary">ReactJs</div>
                             <div className="btn btn-primary">python</div>
                             <div className="btn btn-primary">Mysql</div>
                             <div className="btn btn-primary">responsive Design</div>

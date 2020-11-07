@@ -24,6 +24,7 @@ function Project(){
                                             link={val.link}
                                             tech={val.tech}
                                             domain={val.domain}
+                                            des={val.description}
                                         />:
                                         <Projectcardodd 
                                             imgg={val.imgg}

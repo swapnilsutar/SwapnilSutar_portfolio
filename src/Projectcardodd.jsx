@@ -8,7 +8,7 @@ function Projectcardodd(props) {
             <div className="container">
                 <div className="row row_card">
 
-                        <div className="col-lg-6 card_odd">
+                        <div className="col-sm-7 col-md-7 col-lg-6 card_odd">
 
                             <div className="card">
                                 <div className="card-body">
@@ -30,10 +30,10 @@ function Projectcardodd(props) {
 
                         </div>
 
-                        <div className="col-lg-6">
+                        <div className="col-sm-5 col-md-5 col-lg-6s">
 
                             <div className="project_card ">
-                                <img src={props.imgg} alt=""/>
+                                <img src={props.imgg} alt="Project Image"/>
                             </div>
 
                         </div>

@@ -75,7 +75,7 @@
 }
 
 .card-body .btn a{
-    font-size: 10px;
+    /* font-size: 10px; */
     text-decoration: none;
 }
 .card-body .btn:hover a{

@@ -135,7 +135,8 @@
     text-transform: uppercase;
     text-align: right;
     justify-content: right;
-    padding-bottom: 50px;
+    margin-top: 20px;
+    /* padding-bottom: 50px; */
 }
 .view_all a{
     text-decoration: none;
@@ -143,6 +144,9 @@
     color: grey;
     letter-spacing: 2px;
 
+}
+.view_all a:hover{
+    color: green;
 }
 .recent_work .container .title{
     padding-top: 320px;

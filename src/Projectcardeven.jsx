@@ -9,14 +9,14 @@ function Projectcard(props) {
         <div className="container">
                 <div className="row row_card">
 
-                    <div className="col-lg-6">
+                    <div className="col-sm-5 col-md-5 col-lg-6">
                         <div className="project_card ">
                             <img src={props.imgg} alt=""/>
                         </div>
 
                     </div>
 
-                    <div className="col-lg-6 card_even">
+                    <div className="col-sm-7 col-md-7 col-lg-6 card_even">
                     
                         <div className="card">
                             <div className="card-body">
