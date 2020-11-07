@@ -1,0 +1,48 @@
+.footer{
+    color: white;
+    padding:20px;
+    font-size: 17px;
+    text-align: center;
+    
+}
+.contact_me .title{
+    color: white;
+}
+
+.contact_me .media {
+    /* margin: auto; */
+    /* text-align: center; */
+    justify-content: center;
+    
+}
+.contact_me .media .fa{
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 40px;
+    margin: 20px;
+}
+
+.contact_me .media .fa-linkedin-square:hover{
+    color:rgb(27, 139, 209);
+}
+.contact_me .media .fa-github:hover{
+    color:black;
+}
+.contact_me .media .fa-facebook-official:hover{
+    color:rgb(0, 67, 184);
+}
+.contact_me .media .fa-envelope:hover{
+    color: rgb(250, 250, 250);
+}
+
+.contact_me .title::after{
+    content: '';
+    display: block;
+    margin: auto;
+    transition: width 2s;
+    width: 0%;
+    background: rgb(255, 255, 255);
+    height: 4px;
+}
+ .title:hover::after {
+    width: 100%; 
+}

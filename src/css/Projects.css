@@ -1,0 +1,83 @@
+ .project .title{
+    font-size: 30px;
+    padding-left:30px;
+    padding-right:30px;
+    font-weight: 600;
+    width: 350px;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    border-width:  1px;
+    font-family: 'Open Sans', sans-serif;
+}
+.project .title::after{
+    transition: width 2s;
+    display: block;
+    content: '';
+    width: 0%;
+    height: 4px;
+    margin: auto;
+    background: rgb(112, 48, 37);
+
+}
+.project .title:hover::after {
+    width: 85%;
+}
+.title:hover{
+    color:rgb(27, 29, 27);
+}
+.project_card img{
+    width: 100%;
+    height:320px;
+    /* border:2px solid black; */
+}
+.card{
+    /* width: 100%; */
+    top:10%;
+    padding: 20px;
+    /* background-color: rgb(236, 236, 217); */
+    box-shadow: 0px 0px 3px 0px rgba(124, 120, 120, 0.733);
+}   
+.card-body .card-title{
+    font-size: 22px;
+}   
+.row_card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card_even{
+    /* position: absolute; */
+    left: -20%;
+    z-index: 11;
+    width: 100%;
+}
+.card_odd{
+    left: 13%;
+    z-index: 11;
+}
+.project{
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    z-index: -1111;
+    /* opacity: .7; */
+    /* background-color: #3bebe8; */
+    background-color: #009bca75;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%237d0f0f' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23db2626' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%238c0022' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23e22244' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23990037' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23e4285f' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23a3004e' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e23579' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23a90068' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23db4491' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa1184' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23d154a6' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contact_project{
+    background-color: rgb(11 93 11);
+}
+
+.card-body .btn a{
+    font-size: 10px;
+    text-decoration: none;
+}
+.card-body .btn:hover a{
+     color: white; 
+}

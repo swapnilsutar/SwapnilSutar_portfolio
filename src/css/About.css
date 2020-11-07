@@ -1,0 +1,48 @@
+ .intro{
+    z-index: -1111; 
+     background-color: #77aa77;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    padding-bottom: 70px;
+    background-image: linear-gradient(rgb(3 3 3 / 13%),rgb(190 190 190 / 7%)), url("/images/photo-1517816743773-6e0fd518b4a6.jpg");
+    /* opacity: .4; */
+    height: 65%;
+}
+
+.about_skills{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about_skills .title{
+    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+}
+.about_skills .btn{
+
+    text-transform: uppercase;
+    margin:10px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: rgb(25, 130, 216);
+    font-size: 17px;
+    border-color: 3px solid red;
+    border-radius: 0px;
+}
+.about_contact{
+    background-color: #325f51;
+}
+.certificates .title{
+    /* margin-top: 30px; */
+    margin-bottom:30px;
+}
+.certificates .c_data{
+    margin-bottom: 70px;
+    /* border:2px solid black; */
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+}

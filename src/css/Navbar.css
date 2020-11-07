@@ -1,0 +1,24 @@
+a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.active_nav{
+    color: rgb(250, 112, 0)!important;
+    /* font-size: 30px; */
+}
+.navbar-brand img{
+    height:70px;
+    width: 180px;
+}
+.nav-item{
+    padding-right: 10px;
+}
+
+.navbar{
+    /* position: fixed; */
+    width: 100%;
+    background-color: rgba(233, 225, 225, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

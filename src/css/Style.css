@@ -1,0 +1,19 @@
+body{
+    /* cursor: none; */
+}
+::selection{
+    background-color: rgba(189, 183, 107, 0.616);
+}
+.cursor{ 
+    position: fixed;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    border:2px solid rgb(255, 153, 0);
+    /* transition:0.1s ease; */
+    transform: translate(-50%,-50%);
+    z-index: 2555;
+    /* cursor: url('/images/atos.jpg'); */
+    mix-blend-mode: difference;
+
+}
