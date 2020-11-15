@@ -1,16 +1,18 @@
 import React from "react";
 import "./css/Projects.css";
+import Tilt from "react-tilt";
 
 function Projectcardodd(props) {
 
     return(
     <>
             <div className="container">
-                <div className="row row_card">
+                <div className="row row_card Tilt" options={{ max : 25,reset:false  }}>
 
                     {/* <div className="col-lg-1"></div> */}
                         <div className="col-sm-7 col-md-6 col-lg-6 card_odd">
 
+              
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">{props.title}</h5>
@@ -28,14 +30,17 @@ function Projectcardodd(props) {
 
                                 </div>
                             </div>
+                 
 
                         </div>
 
                         <div className="d-none d-md-block d-lg-block col-md-5 col-lg-6 odd">
+                        <Tilt>
 
                             <div className="project_card ">
                                 <img src={props.imgg} alt="Project Image"/>
                             </div>
+                        </Tilt>
 
                         </div>
 

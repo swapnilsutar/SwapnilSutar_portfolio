@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/Projects.css";
 import Pdata from "./Pdata";
+import Tilt from "react-tilt"
 
 function Projectcard(props) {
 
@@ -9,14 +10,15 @@ function Projectcard(props) {
         <div className="container">
                 <div className="row row_card">
                     <div className="d-none d-md-block col-md-5 col-lg-6 even">
+                    <Tilt>
                         <div className="project_card ">
                             <img src={props.imgg} alt=""/>
                         </div>
+                    </Tilt>
 
                     </div>
 
                     <div className="col-sm-7 col-md-7 col-lg-6 card_even">
-                    
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">{ props.title }</h5>

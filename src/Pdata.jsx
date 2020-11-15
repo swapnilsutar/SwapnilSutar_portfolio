@@ -18,6 +18,15 @@ const Pdata =[
         link:"https://panhalabot.herokuapp.com/",
     },
     {
+        id:"8",
+        imgg:"/images/projectimages/spotify-clone.png",
+        title:"Spotify-Clone",
+        domain:"Web Application",
+        description:"Clone Spotify web application",
+        tech:['ReactJs ','Material-UI ','Javascript ','Spotify-web-api ','Spotify-playlist '],
+        link:"https://github.com/swapnilsutar/spotify-clone-app",
+    },
+    {
         id:"3",
         imgg:"/images/projectimages/got.png",
         title:"Game of thrones Music Player",
