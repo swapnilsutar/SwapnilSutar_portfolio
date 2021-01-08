@@ -24,9 +24,11 @@ function Projectcardodd(props) {
                                     <b>Technologies : </b>
                                 {props.tech}
                                 </p>
-                                    <button className="btn btn-outline-primary">
-                                    <a href={props.link} target="_blank" className="card-link">Live Project Link</a>
-                                    </button>
+                                    <a href={props.link} target="_blank" className="card-link">
+                                        <button className="btn btn-outline-primary">
+                                            Live Project Link
+                                        </button>
+                                    </a>
 
                                 </div>
                             </div>

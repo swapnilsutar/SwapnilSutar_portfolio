@@ -4,9 +4,9 @@ const Pdata =[
         imgg:"/images/projectimages/indianfood.png",
         title:"Indian Food Restaurant",
         domain:"Web Application",
-        description:"Indian food Restaurant hotel website where users can reserve a table or party hall and also can order food.",
+        description:"Indian food Restaurant is hotel web app where users can order food, reserve table or Hall for special event and create own profile.",
         link:"http://indianfoodrestaurant.herokuapp.com/",
-        tech:['php ','laravel ','html5 ','css ']
+        tech:['PHP ','Laravel-Framework ','MySQL ','Heroku ','Bootstrap ','HTML5 ','CSS ']
     },
     {
         id:"2",
@@ -25,6 +25,15 @@ const Pdata =[
         description:"Clone Spotify web application",
         tech:['ReactJs ','Material-UI ','Javascript ','Spotify-web-api ','Spotify-playlist '],
         link:"https://github.com/swapnilsutar/spotify-clone-app",
+    },
+    {
+        id:"9",
+        imgg:"/images/projectimages/liveweather.png",
+        title:"Live Weather",
+        domain:"Web Application",
+        description:"Search location to check current weather.",
+        tech:['Core PHP ','HTML5 ','Openweathermap-api ','Javascript ','CSS '],
+        link:"http://currentweather.epizy.com/",
     },
     {
         id:"3",
